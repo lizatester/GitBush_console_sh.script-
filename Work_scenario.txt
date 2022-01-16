@@ -1,0 +1,13 @@
+ 
+ Создание и запуск bash-скрипта
+  
+  touch script.sh - создаем файл
+  vim script.sh   - открываем файл
+  [i]
+  #!/bin/bash -первая строка скрипта
+  text of script
+  [esc]
+  :wq
+  chmod +x ./myscript -делаем файл испольняемым
+  ./myscript - выполняем файл
+    
